@@ -31,7 +31,7 @@ void loop(){
     {
       digitalWrite(green,1);
     }
-    if(counter==4)
+   else if(counter==4)
     {
       digitalWrite(red,0);
       digitalWrite(yellow,0);
